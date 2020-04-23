@@ -30,7 +30,7 @@ class ViewController: UIViewController,WKNavigationDelegate {
         //何をロードするのか
         webView.navigationDelegate = self
         let url = URL(string: "https://www.yahoo.co.jp/")
-        let request = URLRequest(url: url!,timeoutInterval: 500)
+        let request = URLRequest(url: url!)
         //let request = URLRequest(url: https://www.yahoo.co.jp/)でもOK
         webView.load(request)
         
